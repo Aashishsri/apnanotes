@@ -1,0 +1,129 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0,4),rgba(0,0,0,0,4)),url(banner.jpg);
+    background-size: cover;
+    position: absolute;
+}
+.form-box{
+    width: 100px;
+    height: 80px;
+    position: relative;
+    margin: 6% auto;
+    background: rgb(220, 213, 213);
+}
+body
+{
+    background-image: url("C:\Users\REALM\Desktop\mutual fund\Background.jpg.webp");
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.menu-bar
+{
+    background: rgb(117, 127, 241);
+    text-align: center;
+    margin-left: 13px;
+    padding: 0.7%;
+   
+}
+.menu-bar ul
+{
+ display: inline-flex;
+ list-style: none;
+ color: rgb(234, 232, 232);  
+}
+.menu-bar li
+{
+    width: 120px;
+    margin: 1px;
+    padding: 15px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.active, .menu-bar ul li:hover
+{
+    background: #7a81e8;
+    border-radius: 3px;
+}
+.menu-bar .fa
+{
+    margin-right: 8px;    
+}
+.sub-menu-1
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background: rgb(rgb(111, 137, 230) 100);
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    margin: 0px;
+
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+    width: 130px;
+    padding: 10px;
+    border-bottom: 0px dotted #fff;
+    background: rgb(123, 146, 238);
+    border-radius: 5px;
+    text-align: center;
+    border-top: 0;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li :last-child
+{
+    border-bottom:none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a :hover;
+{
+    color : #b2ff00;
+}
+.fa angle-right
+{
+    float: right;    
+}
+.sub-menu-2
+{
+    display: none;
+}
+.hover-me:hover .sub-menu-2
+{
+    position: absolute;
+    display: block;
+    margin-top: -20px;
+    margin-left: 120px;
+    background: rgb(20, 105, 20);
+}
+
+.thumbnail
+{
+    padding-right: 3%;
+    margin-left: 58%;
+    margin-bottom: 500%;
+    margin-top: -18%;
+}
+.sectionsubtag
+{
+    margin-left: 3%;
+    color: rgb(24, 64, 64);
+}
+.sectiontag{
+    margin-left: 2%;
+}
